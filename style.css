@@ -1,0 +1,95 @@
+.test1{
+    margin-left: 35px;
+    font-size: x-large;
+}
+.navbar-custom{
+    background-color: #bc82e8;
+}
+.log-box{
+    padding: 20px 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 40%;
+    margin-top: 30px;
+    min-width: 300px;
+}
+#heading{
+    text-align: center;
+    margin: 10px 0;
+    font-size: 50px;
+}
+.index-content{
+    display: flex;
+    height: 480px;
+}
+.index-left{
+    width: 50%;
+    align-items: center;
+}
+.index-left h1{
+    margin-left: 20px;
+    margin-top: 150px;
+    font-weight: bolder;
+}
+.index-left p{
+    margin: -25px 30px;
+    font-size: large;
+}
+.index-right{
+    width: 50%;
+    text-align: center;
+    margin-top: 50px;
+}
+.started-btn{
+    text-align: center;
+}
+.started-btn button{
+    border-radius: 30px;
+    border: 1px;
+    padding: 10px 70px;
+    background-color: black;
+}
+.started-btn a{
+    font-size: xx-large;
+    text-decoration: none;
+    color: white;
+}
+.browse-card,.card{
+    margin: 20px 50px;
+    transition: 0.5s ease;
+}
+
+@media (max-width:600px) {
+    .index-content{
+        flex-direction: column;
+    }
+    .index-left{
+        width: 100%;
+        /* border: 1px solid black; */
+    }
+    .index-left h1{
+        margin-top: 20px;
+        font-size: x-large;
+        font-weight: bolder;
+    }
+    .index-left p{
+        font-size: medium;
+        margin: 0;
+        text-align: center;
+    }
+    .index-right{
+        width: 100%;
+    }
+    .test2{
+        margin-left: 10px;
+    }
+    .test1{
+        margin-left:  10px;
+    }
+    .moba{
+        text-align: center;
+    }
+    .browse-card{
+        margin: 20px 10px;
+    }
+}
