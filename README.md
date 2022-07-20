@@ -19,6 +19,7 @@ So to promote this Culture we have developed AudioFlix which is a Web App where 
 - Buy Credits which is required to rent AudioBook(as of now it is dummy payment system)
 - View their Audios
 - Audios will be available till the date you rent them (Maximum Rent Duration: A week)
+- View Audios through Naive Recommendation System
 
 #### An Admin can
 - Add/Delete/Update/View Audios
